@@ -6,5 +6,5 @@ request.send();
 
 request.onload = function() {
 const CharPull = request.response;
-alert(CharPull);
+poemDisplay.textContent = request.response;
 }
